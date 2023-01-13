@@ -1,0 +1,23 @@
+.radio-group {
+  label {
+    padding: 0px 25px;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .radius-group > div {
+    align-items: baseline;
+  }
+  .generator-section {
+    padding: 0px !important;
+    input {
+      margin-bottom: 5px;
+    }
+    #generate-button {
+      margin-inline-start: 0px;
+    }
+  }
+  .display-none-mobile {
+    display: none;
+  }
+}
